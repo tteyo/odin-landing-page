@@ -47,8 +47,12 @@ button {
     color:#F9FAF8
 }
 
-.outer{
-    padding:0px 180px;/*top right ,bottom left*/
+#header,#footer{
+    padding:5px 180px;/*top right ,bottom left*/
+}
+
+#front,#cards,#quote,#banner{
+    padding:60px 180px;
 }
 
 #header{
@@ -86,6 +90,7 @@ button {
     display:flex;
     flex-direction: column;
     align-items: center;
+    gap:15px;
 }
 
 #cards h2{
