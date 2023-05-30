@@ -23,16 +23,12 @@ h1{
     
 }
 
-div p{
-    width:450px;
+h2{
+    margin:0;
 }
 
-li p{
-    width: 150px;
-}
-
-.header, .content, .footer{
-    padding:0px 180px;/*top right ,bottom left*/
+p{
+    margin:0;
 }
 
 .darkb{
@@ -60,21 +56,34 @@ li p{
     color:#F9FAF8
 }
 
-.header{
+.outer{
+    padding:0px 180px;/*top right ,bottom left*/
+}
+
+#header{
     display:flex;
     justify-content: space-between;
 }
 
-.front{
+#header .left{
+    display:flex;
+}
+
+#front{
     display:flex;
     justify-content: space-between;
 }
 
-.leftr{
-    display:flex;
+#front .left{
+    width:450px;
 }
 
-.leftc{
+#cards{
     display:flex;
     flex-direction: column;
+    align-items: center;
+}
+
+#cards li{
+    width:150px;
 }
