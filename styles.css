@@ -23,6 +23,7 @@ a{
 
 button {
     background-color:#3882F6;
+    font-weight:bold;
     padding:3px 20px;
     border: none;
     border-radius:5px;
@@ -58,16 +59,27 @@ button {
 
 #header .left{
     display:flex;
+    gap:10px;
 }
 
 #front{
     background-color: #1F2937;
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #front .left{
     width:450px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    gap:10px
+}
+
+#front img{
+    height:200px;
+    width:400px;
 }
 
 #cards{
